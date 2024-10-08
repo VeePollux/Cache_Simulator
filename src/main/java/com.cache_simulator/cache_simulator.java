@@ -24,7 +24,7 @@ public class cache_simulator {
         int flagOut = Integer.parseInt(args[4]);
         String arquivoEntrada = args[5];
 
-        Cache cache = new Cache(nsets, bsize, assoc, subst.charAt(0), flagOut == 1);
+        Cache cache = new Cache(nsets, bsize, assoc, subst.charAt(0));
         FileInputStream fileInputStream = null;
         try{
             String filePath =  "src/main/resources/" + arquivoEntrada;

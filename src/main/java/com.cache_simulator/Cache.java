@@ -26,7 +26,7 @@ public class Cache {
   public Cache() {
   }
 
-  public Cache(int nsets, int bsize, int associativity, char flagReplacement, boolean flagOutput) {
+  public Cache(int nsets, int bsize, int associativity, char flagReplacement) {
     //Começando com todos resultados zerados
     numberAccesses = 0;
     numberHits = 0;
