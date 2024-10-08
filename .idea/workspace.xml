@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d72d6ff-724b-4adf-bf6f-93465e4f3329" name="Changes" comment="Atualização das classes e configurações para abertura no terminal">
+    <list default="true" id="0d72d6ff-724b-4adf-bf6f-93465e4f3329" name="Changes" comment="Todas classes implementadas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache_simulator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cache_simulator.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/cache_simulator/Cache.class" beforeDir="false" afterPath="$PROJECT_DIR$/com/cache_simulator/Cache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/cache_simulator/LRU_P.class" beforeDir="false" afterPath="$PROJECT_DIR$/com/cache_simulator/LRU_P.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/cache_simulator/cache_simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/com/cache_simulator/cache_simulator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.cache_simulator/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.cache_simulator/Cache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.cache_simulator/FIFO_P.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.cache_simulator/FIFO_P.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.cache_simulator/LRU_P.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.cache_simulator/LRU_P.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.cache_simulator/Random_P.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.cache_simulator/Random_P.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.cache_simulator/cache_simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.cache_simulator/cache_simulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,9 @@
     &quot;accountId&quot;: &quot;8699db89-568a-4122-854c-ed354d10d6db&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -123,7 +124,8 @@
       <workItem from="1726791797819" duration="630000" />
       <workItem from="1728235719137" duration="22646000" />
       <workItem from="1728331669624" duration="744000" />
-      <workItem from="1728339669418" duration="6821000" />
+      <workItem from="1728339669418" duration="7963000" />
+      <workItem from="1728349962044" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -149,15 +151,43 @@
       <option name="project" value="LOCAL" />
       <updated>1728269362926</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Todas classes implementadas">
+      <option name="closed" value="true" />
+      <created>1728347917608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728347917608</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Todas classes implementadas">
+      <option name="closed" value="true" />
+      <created>1728347988261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728347988261</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Atualização das classes e configurações para abertura no terminal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização das classes e configurações para abertura no terminal" />
+    <MESSAGE value="Todas classes implementadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todas classes implementadas" />
   </component>
 </project>

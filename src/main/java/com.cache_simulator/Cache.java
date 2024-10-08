@@ -84,9 +84,8 @@ public class Cache {
         for (int i = 0; i < associativity; i++) {
           if(blocks[0][i].getBitValidity() && blocks[0][i].getTag() == tag){
             numberHits++;
-            if (replacement instanceof LRU_P){
+            if (replacement instanceof LRU_P)
               ((LRU_P)replacement).updateUsage(i, index);  // Atualiza o tempo de uso para LRU
-              System.out.println(numberHits);}
             return;}}
         for (int i = 0; i < associativity; i++){
           if (!blocks[0][i].getBitValidity()) {
@@ -138,9 +137,9 @@ public class Cache {
     missCapRate = Math.round(((double) numberMissesCap/numberMisses)*10000.0)/10000.0;
     missConfRate = Math.round(((double) numberMissesConf/numberMisses)*10000.0)/10000.0;
 
-    if(flagOut == 1){
+    if(flagOut == 1)
       System.out.println(numberAccesses + " " + hitRate + " "+ missRate +  " " + missCompRate + " " + missCapRate + " " + missConfRate);
-    }else{
+    else if(flagOut == 0){
       System.out.println("Número de acessos: " + numberAccesses);
       System.out.println("Número de hits: " + numberHits);
       System.out.println("Taxa de hits: " + hitRate);
@@ -153,6 +152,8 @@ public class Cache {
       System.out.println("Número de misses de capacidade: " + numberMissesCap);
       System.out.println("Taxa de misses de capacidade: " + missCapRate);
     }
+    else
+      System.out.println("Flag inválida. Utilize 0 para saída completa e 1 para saída resumida.");
   }
   public int bytesToInt(byte[] bytes){
     int bits = 0;
