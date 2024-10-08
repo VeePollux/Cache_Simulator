@@ -7,9 +7,8 @@ if [ "$#" -ne 6 ]; then
 fi
 
 # Compilar o programa Java
-echo "Compilando Cache_Simulator.java..."
-javac -d . src/main/java/com.cache_simulator/cache_simulator.java
-javac -d . src/main/java/com.cache_simulator/cache_simulator.java src/main/java/com.cache_simulator/Cache.java src/main/java/com.cache_simulator/Replacement_P.java src/main/java/com.cache_simulator/Random_P.java  src/main/java/com.cache_simulator/Block.java
+#echo "Compilando Cache_Simulator.java..."
+javac -d . src/main/java/com.cache_simulator/cache_simulator.java src/main/java/com.cache_simulator/Cache.java src/main/java/com.cache_simulator/Replacement_P.java src/main/java/com.cache_simulator/LRU_P.java src/main/java/com.cache_simulator/FIFO_P.java src/main/java/com.cache_simulator/Random_P.java  src/main/java/com.cache_simulator/Block.java
 
 
 if [ $? -ne 0 ]; then
@@ -18,7 +17,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Executar o programa Java
-echo "Executando Cache_Simulator..."
+#echo "Executando Cache _Simulator..."
 java -cp . com.cache_simulator.cache_simulator "$@"
 
 if [ $? -ne 0 ]; then

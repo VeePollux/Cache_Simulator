@@ -25,36 +25,26 @@ public class cache_simulator {
         String arquivoEntrada = args[5];
 
         Cache cache = new Cache(nsets, bsize, assoc, subst.charAt(0), flagOut == 1);
-
-
         FileInputStream fileInputStream = null;
-
         try{
-            String filePath =  "src/main/java/com.cache_simulator/" + arquivoEntrada;
+            String filePath =  "src/main/resources/" + arquivoEntrada;
             fileInputStream = new FileInputStream(filePath);
             byte[] bytes = new byte[4];
             int bitsAdress;
             while(fileInputStream.read(bytes) != -1){
                 bitsAdress = cache.bytesToInt(bytes);
-                cache.CacheOperation(bitsAdress);
-            }
-
+                cache.CacheOperation(bitsAdress);}
         }catch(IOException e){
             e.printStackTrace();
-            System.exit(1);
-
-        }finally{
+            System.exit(1);}
+        finally{
             try{
                 if(fileInputStream != null){
                     fileInputStream.close();
                 }
             }catch(IOException e){
                 e.printStackTrace();
-            }
-
-        }
-
+            }}
         cache.printOUT(flagOut);
-
     }
 }

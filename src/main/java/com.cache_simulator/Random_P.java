@@ -7,11 +7,8 @@ public class Random_P extends Replacement_P {
 
     @Override
     public void replace(Block[][] block,int associativity, int index, int tag) {
-        if (block == null || block.length == 0) {
-            throw new IllegalArgumentException("Cache não pode ser nulo ou vazio.");
-        }
 
-        // Gera um índice aleatório entre 0 e cache.length - 1
+        // Gera um índice aleatório entre 0 e o tamanho da associatividade
         int randomIndex = randomGenerator.nextInt(associativity);
 
         // Substitui o bloco com a nova tag e define o bit de validade como verdadeiro
