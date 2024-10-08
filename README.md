@@ -8,11 +8,14 @@ Este simulador de cache foi desenvolvido em Java como parte do projeto para a di
 
 ## Repositório :file_folder:
 Repositório composto pelos seguintes arquivos:
-- **`src/main/java`**: Pasta responsavel por comportar o codigo fonte do simulador de cache.
-  - **`com.cache_simulator`**: Pasta composta pelas classes em java do simulador, contendo todas as classes.
+- **`src/main`**: Pasta responsavel por comportar o codigo fonte do simulador de cache.
+  - **`java/com.cache_simulator`**: Pasta composta pelas classes em java do simulador, contendo todas as classes.
+  - **`resources`**: Pasta composta pelos scripts de teste.
+- **`com/cache_simulator`**: Pasta com todas as classes do codigo java.
+- **`target/classes`**: Pasta com todas as classes do codigo java.
 - **Arquivos extras**: Arquivos de utilidade para o projeto.
-  - **`.gitignore`**: Arquivo de configuração que especifica quais arquivos e diretórios devem ser ignorados pelo Git.
-  - **`makefile`**: Arquivo de automação de compilação.
+  - **`mvnw.cmd`**: Arquivo de criação de projeto com Maven.
+  - **`pom.xml`**: Arquivo criado pela utilização do intelij.
 
 ## Linux :penguin:
 
