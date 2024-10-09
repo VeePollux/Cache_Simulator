@@ -19,6 +19,22 @@ Repositório composto pelos seguintes arquivos:
 
 ## Linux :penguin:
 
+*****
+A execução do projeto deve ser feita dentro do diretório inicial, cache_simulator.
+Através do terminal, execute o comando, por exemplo:
+```
+./cache_simulator 256 4 1 R 1 bin_100.bin
+```
+
+Caso deseje executar sem ``` ./``` execute o comando:
+```
+export PATH=$PATH:.
+```
+Em seguida, é possivel executar o comando normalmente, por exemplo:
+```
+cache_simulator 256 4 1 R 1 bin_100.bin
+```
+
 ### Requisitos
 Antes de executar o projeto, é essencial garantir que os seguintes pacotes estejam instalados: gcc, make, python3, tkinter e numpy. Se algum desses pacotes ainda não estiver instalado, siga os comandos abaixo para realizá-lo:
 ```
