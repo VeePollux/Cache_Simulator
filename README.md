@@ -20,6 +20,7 @@ Repositório composto pelos seguintes arquivos:
 ## Linux :penguin:
 
 *****
+O codigo em Java necessita da ferramenta JDK ja instalada na maquina que serve para a compilação e contem as API's Java necessarias para a execução do código.
 A execução do projeto deve ser feita dentro do diretório inicial, cache_simulator.
 Através do terminal, execute o comando, por exemplo:
 ```
