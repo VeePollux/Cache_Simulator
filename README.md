@@ -20,7 +20,7 @@ Repositório composto pelos seguintes arquivos:
 ## Linux :penguin:
 
 *****
-O codigo em Java necessita da ferramenta JDK ja instalada na maquina que serve para a compilação e contem as API's Java necessarias para a execução do código.
+O código em Java requer a instalação da ferramenta JDK (Java Development Kit) na máquina. O JDK é necessário tanto para a compilação quanto para a execução do código, pois contém o compilador javac e as APIs Java essenciais.
 A execução do projeto deve ser feita dentro do diretório inicial, cache_simulator.
 Através do terminal, execute o comando, por exemplo:
 ```
